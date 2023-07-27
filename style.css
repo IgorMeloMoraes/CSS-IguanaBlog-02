@@ -1,0 +1,121 @@
+/* Configs Padrão */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #eae5ec;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Layouts */
+
+#area-cabecalho{
+    background: #36363b    ;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+.conteudo-lateral{
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+/* Menus */
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #05f1c7;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #05f1c7;
+}
+
+#area-cabecalho a:hover{
+    color: #a534b7;
+    padding: 10px;
+    background: #FFF;
+    text-decoration: none;
+}
+
+
+
+/* Config Gerais */
+
+h1{
+    color: #FFF;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #565656;
+}
+
+h3{
+    color: #565656;
+    background: #05f1c7;
+    padding: 5px;
+}
+
+.logo-color{
+    color: #05f1c7;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #565656;
+}
